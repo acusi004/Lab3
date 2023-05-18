@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#FF5"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#FF5422"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_below="@+id/view1"
+        />
+    <TextView
+        android:id="@+id/view3"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#FF8432"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        />
+    <TextView
+        android:id="@+id/view4"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#FF34"
+        android:gravity="center"
+        android:text="Click me"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/view3"
+        />
+
+</RelativeLayout>
